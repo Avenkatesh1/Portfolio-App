@@ -278,7 +278,7 @@ nav ul li a:hover::after{
 }
 .btn{
     display: block;
-    margin: 50px auto;
+    margin: 10px auto;
     width: fit-content;
     border: 1px solid #1092de;
     padding: 14px 50px;
@@ -290,6 +290,17 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #1092de;
     transform: scale(1.1);
+}
+.btnn{
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    border: 1px solid #1092de;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
 }
 #contact{
     background: #092d38;
