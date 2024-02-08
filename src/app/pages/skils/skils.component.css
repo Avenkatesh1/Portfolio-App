@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222;
+    font-family: system-ui, sans-serif;
+    padding-bottom: 50px;
+}
+.skills{
+    height: 500px;
+    background-color:#fff;
+    margin-top: -20px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.skills .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .heading h1{
+    color: blue;
+}
+
+.skills .prog .main .txt{
+    color: blue;
+}
+
+.skills .prog{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.skills .prog .check{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
