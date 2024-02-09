@@ -39,6 +39,10 @@ const routes: Routes = [
     component:LoginComponent
   },
   {
+    path:'Logup',
+    component:LoginComponent
+  },
+  {
     path:'Skils',
     component:SkilsComponent
   }
